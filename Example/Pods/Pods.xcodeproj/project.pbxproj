@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		05BB4D525981C457F78B39E159D8231B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		0A6F4D272DB8DADECAB352A5A58C3DF4 /* Pods-GraphicButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723D5CED64296C7E89D64D1974D542BB /* Pods-GraphicButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E3206521EDB6F6006FF63D /* GraphicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E3206321EDB6F6006FF63D /* GraphicButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E3206621EDB6F6006FF63D /* GraphicButton.m in Headers */ = {isa = PBXBuildFile; fileRef = 18E3206421EDB6F6006FF63D /* GraphicButton.m */; };
+		18E3206721EDB7B5006FF63D /* GraphicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E3206321EDB6F6006FF63D /* GraphicButton.h */; };
+		18E3206821EDB7B8006FF63D /* GraphicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3206421EDB6F6006FF63D /* GraphicButton.m */; };
 		24FB224CFA99EEBCBCA293694E1737E8 /* GraphicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 909E9E9B6738F453E0AF306C3BE54A84 /* GraphicButton-dummy.m */; };
 		3AA1176D57C7DE62C7DD13D6CCD6B7A2 /* Pods-GraphicButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 472F5AFC6524ABA9D89EE00AB0D7892E /* Pods-GraphicButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E1D560BDC9E0477FEB59A5C2ABC6128 /* GraphicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3192BACE741F0BCC1DAF28AA268CB /* GraphicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,25 +41,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019692D67B13E235AFAC57ADA5501512 /* Pods_GraphicButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GraphicButton_Example.framework; path = "Pods-GraphicButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		019692D67B13E235AFAC57ADA5501512 /* Pods_GraphicButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphicButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0940BC660CE96EF07BE48E6FB5534179 /* Pods-GraphicButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		12C162F2592E1F2032F05D5684856643 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F4265DBFCCE49EDFB702DB592A99CA /* Pods-GraphicButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphicButton_Example.modulemap"; sourceTree = "<group>"; };
 		17B82DF061A3792CB1D2A12AB851760D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E3206321EDB6F6006FF63D /* GraphicButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GraphicButton.h; path = GraphicButton/Classes/GraphicButton.h; sourceTree = "<group>"; };
+		18E3206421EDB6F6006FF63D /* GraphicButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GraphicButton.m; path = GraphicButton/Classes/GraphicButton.m; sourceTree = "<group>"; };
 		1910C52409E083CE883585EEAB637EB4 /* Pods-GraphicButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27578F4CE593B6D64323C53C2AE19814 /* Pods-GraphicButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphicButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		27A81C8815D6163786A3714CA14FAAB6 /* Pods-GraphicButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphicButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		292BB8204F52867F95DB6DA17B29AA54 /* GraphicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GraphicButton.xcconfig; sourceTree = "<group>"; };
-		3E02FE39D229314FBBEB068E7695AE1E /* GraphicButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GraphicButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3E02FE39D229314FBBEB068E7695AE1E /* GraphicButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GraphicButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		472F5AFC6524ABA9D89EE00AB0D7892E /* Pods-GraphicButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphicButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5CBEA8B8594937DF13CD0BF9B5915772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		618B23F1B4CDCE3795EE75AF3FC73FCF /* Pods-GraphicButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		723D5CED64296C7E89D64D1974D542BB /* Pods-GraphicButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphicButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7B9AAC9F9E6D2529D9FADAF7C69D4BC8 /* Pods-GraphicButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphicButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B9B52E0E9DDF7B7DB81A964C2991D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B9B52E0E9DDF7B7DB81A964C2991D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		909E9E9B6738F453E0AF306C3BE54A84 /* GraphicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GraphicButton-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9961BCC83D61F03706D065B6972D7C84 /* Pods-GraphicButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Example-resources.sh"; sourceTree = "<group>"; };
 		9B542DC16ABA1A628B54E8FF3417718A /* Pods-GraphicButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A349E2EE8A93C433BEBE347EFD6B0790 /* Pods-GraphicButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphicButton_Example-dummy.m"; sourceTree = "<group>"; };
@@ -63,14 +69,14 @@
 		B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GraphicButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B22B8D282B3EA1404DFFF64A1918B314 /* GraphicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphicButton-prefix.pch"; sourceTree = "<group>"; };
 		B43E0C0630E7F27ACEC1FA9866557E68 /* Pods-GraphicButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphicButton_Tests.modulemap"; sourceTree = "<group>"; };
-		C432C7980EAC0520725158B2155D8DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C432C7980EAC0520725158B2155D8DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C9E86D759C261FD418150A5C3B1B9D5F /* Pods-GraphicButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0DBED172D72848C23A0FD3262FF2874 /* Pods-GraphicButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphicButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1148F5774A73251866B351EE7195A46 /* Pods-GraphicButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D50747C05922DD8C9B0CC7322E2BCF77 /* Pods-GraphicButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphicButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECA3192BACE741F0BCC1DAF28AA268CB /* GraphicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphicButton-umbrella.h"; sourceTree = "<group>"; };
-		EEBE1FEB40A70A15CBFDC31F1C516052 /* GraphicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GraphicButton.framework; path = GraphicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0227BA530A8C61951B04B2C03E9A0F5 /* Pods_GraphicButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GraphicButton_Tests.framework; path = "Pods-GraphicButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBE1FEB40A70A15CBFDC31F1C516052 /* GraphicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GraphicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0227BA530A8C61951B04B2C03E9A0F5 /* Pods_GraphicButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphicButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0CC1E3E4C3FF2699E872A4D59FA4FC /* Pods-GraphicButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */,
+				18E3206321EDB6F6006FF63D /* GraphicButton.h */,
+				18E3206421EDB6F6006FF63D /* GraphicButton.m */,
 				9FA5E28B9B85958671D2E2CE302EC9AC /* Pod */,
 				627DF4EC3C5D8D0D1B4C5E3958B349E3 /* Support Files */,
 			);
@@ -235,6 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1D560BDC9E0477FEB59A5C2ABC6128 /* GraphicButton-umbrella.h in Headers */,
+				18E3206521EDB6F6006FF63D /* GraphicButton.h in Headers */,
+				18E3206621EDB6F6006FF63D /* GraphicButton.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA1176D57C7DE62C7DD13D6CCD6B7A2 /* Pods-GraphicButton_Example-umbrella.h in Headers */,
+				18E3206721EDB7B5006FF63D /* GraphicButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E3206821EDB7B8006FF63D /* GraphicButton.m in Sources */,
 				F0B2193B269057ED64CFBEF0D0ACDB62 /* Pods-GraphicButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
