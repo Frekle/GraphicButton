@@ -17,7 +17,6 @@
 		3AA1176D57C7DE62C7DD13D6CCD6B7A2 /* Pods-GraphicButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 472F5AFC6524ABA9D89EE00AB0D7892E /* Pods-GraphicButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E1D560BDC9E0477FEB59A5C2ABC6128 /* GraphicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3192BACE741F0BCC1DAF28AA268CB /* GraphicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		418A089D92B66254DB9D8D5CFE38A912 /* Pods-GraphicButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27578F4CE593B6D64323C53C2AE19814 /* Pods-GraphicButton_Tests-dummy.m */; };
-		64467B2FEB3B11F90CD409B53E8BEEF0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */; };
 		B8545B6B8A5EE218A13DEE2EAD7B922E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E03B1F0A66FA60B8F3BCB609EB563A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F0B2193B269057ED64CFBEF0D0ACDB62 /* Pods-GraphicButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A349E2EE8A93C433BEBE347EFD6B0790 /* Pods-GraphicButton_Example-dummy.m */; };
@@ -66,7 +65,6 @@
 		9B542DC16ABA1A628B54E8FF3417718A /* Pods-GraphicButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A349E2EE8A93C433BEBE347EFD6B0790 /* Pods-GraphicButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphicButton_Example-dummy.m"; sourceTree = "<group>"; };
 		A9F78C2E8E652268F7F68C23D43D26BA /* GraphicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GraphicButton.modulemap; sourceTree = "<group>"; };
-		B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GraphicButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B22B8D282B3EA1404DFFF64A1918B314 /* GraphicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphicButton-prefix.pch"; sourceTree = "<group>"; };
 		B43E0C0630E7F27ACEC1FA9866557E68 /* Pods-GraphicButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphicButton_Tests.modulemap"; sourceTree = "<group>"; };
 		C432C7980EAC0520725158B2155D8DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 		10D416B680A572929F40873480F30639 /* GraphicButton */ = {
 			isa = PBXGroup;
 			children = (
-				B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */,
 				18E3206321EDB6F6006FF63D /* GraphicButton.h */,
 				18E3206421EDB6F6006FF63D /* GraphicButton.m */,
 				9FA5E28B9B85958671D2E2CE302EC9AC /* Pod */,
@@ -355,7 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24FB224CFA99EEBCBCA293694E1737E8 /* GraphicButton-dummy.m in Sources */,
-				64467B2FEB3B11F90CD409B53E8BEEF0 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

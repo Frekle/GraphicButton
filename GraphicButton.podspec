@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GraphicButton'
   s.version          = '0.1.0'
-  s.summary          = 'Create the button contian image above and text below.'
+  s.summary          = 'A Graphic Button'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GraphicButton/Classes/**/*'
+  # s.source_files = '*.{h,m}'
+  s.source_files = "GraphicButton/Classes/*.{h,m}"
   
   # s.resource_bundles = {
   #   'GraphicButton' => ['GraphicButton/Assets/*.png']
