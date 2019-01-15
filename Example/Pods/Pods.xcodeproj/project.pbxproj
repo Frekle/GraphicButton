@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BB4D525981C457F78B39E159D8231B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0A6F4D272DB8DADECAB352A5A58C3DF4 /* Pods-GraphicButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723D5CED64296C7E89D64D1974D542BB /* Pods-GraphicButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24FB224CFA99EEBCBCA293694E1737E8 /* GraphicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 909E9E9B6738F453E0AF306C3BE54A84 /* GraphicButton-dummy.m */; };
+		3AA1176D57C7DE62C7DD13D6CCD6B7A2 /* Pods-GraphicButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 472F5AFC6524ABA9D89EE00AB0D7892E /* Pods-GraphicButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E1D560BDC9E0477FEB59A5C2ABC6128 /* GraphicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA3192BACE741F0BCC1DAF28AA268CB /* GraphicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		418A089D92B66254DB9D8D5CFE38A912 /* Pods-GraphicButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27578F4CE593B6D64323C53C2AE19814 /* Pods-GraphicButton_Tests-dummy.m */; };
+		64467B2FEB3B11F90CD409B53E8BEEF0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */; };
+		B8545B6B8A5EE218A13DEE2EAD7B922E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E03B1F0A66FA60B8F3BCB609EB563A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F0B2193B269057ED64CFBEF0D0ACDB62 /* Pods-GraphicButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A349E2EE8A93C433BEBE347EFD6B0790 /* Pods-GraphicButton_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09535E0CFB2875EF9213A7AAF44DAEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDED5530E625A7C3D5895DF09502638;
+			remoteInfo = GraphicButton;
+		};
+		DD963AC2385A0857AF2902B73956FFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 744105EB195F3E2DE3C0690A32704CC4;
+			remoteInfo = "Pods-GraphicButton_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019692D67B13E235AFAC57ADA5501512 /* Pods_GraphicButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GraphicButton_Example.framework; path = "Pods-GraphicButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0940BC660CE96EF07BE48E6FB5534179 /* Pods-GraphicButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		12C162F2592E1F2032F05D5684856643 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F4265DBFCCE49EDFB702DB592A99CA /* Pods-GraphicButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphicButton_Example.modulemap"; sourceTree = "<group>"; };
+		17B82DF061A3792CB1D2A12AB851760D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1910C52409E083CE883585EEAB637EB4 /* Pods-GraphicButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		27578F4CE593B6D64323C53C2AE19814 /* Pods-GraphicButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphicButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		27A81C8815D6163786A3714CA14FAAB6 /* Pods-GraphicButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphicButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		292BB8204F52867F95DB6DA17B29AA54 /* GraphicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GraphicButton.xcconfig; sourceTree = "<group>"; };
+		3E02FE39D229314FBBEB068E7695AE1E /* GraphicButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GraphicButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		472F5AFC6524ABA9D89EE00AB0D7892E /* Pods-GraphicButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphicButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CBEA8B8594937DF13CD0BF9B5915772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618B23F1B4CDCE3795EE75AF3FC73FCF /* Pods-GraphicButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		723D5CED64296C7E89D64D1974D542BB /* Pods-GraphicButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphicButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B9AAC9F9E6D2529D9FADAF7C69D4BC8 /* Pods-GraphicButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphicButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B9B52E0E9DDF7B7DB81A964C2991D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		909E9E9B6738F453E0AF306C3BE54A84 /* GraphicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GraphicButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9961BCC83D61F03706D065B6972D7C84 /* Pods-GraphicButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Example-resources.sh"; sourceTree = "<group>"; };
+		9B542DC16ABA1A628B54E8FF3417718A /* Pods-GraphicButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A349E2EE8A93C433BEBE347EFD6B0790 /* Pods-GraphicButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphicButton_Example-dummy.m"; sourceTree = "<group>"; };
+		A9F78C2E8E652268F7F68C23D43D26BA /* GraphicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GraphicButton.modulemap; sourceTree = "<group>"; };
+		B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GraphicButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B22B8D282B3EA1404DFFF64A1918B314 /* GraphicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphicButton-prefix.pch"; sourceTree = "<group>"; };
+		B43E0C0630E7F27ACEC1FA9866557E68 /* Pods-GraphicButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphicButton_Tests.modulemap"; sourceTree = "<group>"; };
+		C432C7980EAC0520725158B2155D8DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9E86D759C261FD418150A5C3B1B9D5F /* Pods-GraphicButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0DBED172D72848C23A0FD3262FF2874 /* Pods-GraphicButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphicButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1148F5774A73251866B351EE7195A46 /* Pods-GraphicButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphicButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D50747C05922DD8C9B0CC7322E2BCF77 /* Pods-GraphicButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphicButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECA3192BACE741F0BCC1DAF28AA268CB /* GraphicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphicButton-umbrella.h"; sourceTree = "<group>"; };
+		EEBE1FEB40A70A15CBFDC31F1C516052 /* GraphicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GraphicButton.framework; path = GraphicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0227BA530A8C61951B04B2C03E9A0F5 /* Pods_GraphicButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GraphicButton_Tests.framework; path = "Pods-GraphicButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0CC1E3E4C3FF2699E872A4D59FA4FC /* Pods-GraphicButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphicButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B3F495E23F6AFA758C786E2FFF4415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8545B6B8A5EE218A13DEE2EAD7B922E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C61BAF160020BC8393837FC407F820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BB4D525981C457F78B39E159D8231B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BDDEFF669C29F0D27DEEEA5DAC9A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03B1F0A66FA60B8F3BCB609EB563A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D416B680A572929F40873480F30639 /* GraphicButton */ = {
+			isa = PBXGroup;
+			children = (
+				B1D4821504D3C8614540E5DC6E0EF2A0 /* ReplaceMe.m */,
+				9FA5E28B9B85958671D2E2CE302EC9AC /* Pod */,
+				627DF4EC3C5D8D0D1B4C5E3958B349E3 /* Support Files */,
+			);
+			name = GraphicButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		224134A2035C836EBEDAAF7032464F17 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D416B680A572929F40873480F30639 /* GraphicButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3430CB2078B63F7E255302B8D6972974 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52B8952458A254E71A1C1D089C9261E3 /* Pods-GraphicButton_Example */,
+				EB7EA14967499F664247539C49A194DE /* Pods-GraphicButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52B8952458A254E71A1C1D089C9261E3 /* Pods-GraphicButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5CBEA8B8594937DF13CD0BF9B5915772 /* Info.plist */,
+				16F4265DBFCCE49EDFB702DB592A99CA /* Pods-GraphicButton_Example.modulemap */,
+				D0DBED172D72848C23A0FD3262FF2874 /* Pods-GraphicButton_Example-acknowledgements.markdown */,
+				D50747C05922DD8C9B0CC7322E2BCF77 /* Pods-GraphicButton_Example-acknowledgements.plist */,
+				A349E2EE8A93C433BEBE347EFD6B0790 /* Pods-GraphicButton_Example-dummy.m */,
+				9B542DC16ABA1A628B54E8FF3417718A /* Pods-GraphicButton_Example-frameworks.sh */,
+				9961BCC83D61F03706D065B6972D7C84 /* Pods-GraphicButton_Example-resources.sh */,
+				472F5AFC6524ABA9D89EE00AB0D7892E /* Pods-GraphicButton_Example-umbrella.h */,
+				1910C52409E083CE883585EEAB637EB4 /* Pods-GraphicButton_Example.debug.xcconfig */,
+				C9E86D759C261FD418150A5C3B1B9D5F /* Pods-GraphicButton_Example.release.xcconfig */,
+			);
+			name = "Pods-GraphicButton_Example";
+			path = "Target Support Files/Pods-GraphicButton_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		627DF4EC3C5D8D0D1B4C5E3958B349E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F78C2E8E652268F7F68C23D43D26BA /* GraphicButton.modulemap */,
+				292BB8204F52867F95DB6DA17B29AA54 /* GraphicButton.xcconfig */,
+				909E9E9B6738F453E0AF306C3BE54A84 /* GraphicButton-dummy.m */,
+				B22B8D282B3EA1404DFFF64A1918B314 /* GraphicButton-prefix.pch */,
+				ECA3192BACE741F0BCC1DAF28AA268CB /* GraphicButton-umbrella.h */,
+				12C162F2592E1F2032F05D5684856643 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GraphicButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				224134A2035C836EBEDAAF7032464F17 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AB1AD80B64AA7770BDA90EB38FD1585F /* Products */,
+				3430CB2078B63F7E255302B8D6972974 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA5E28B9B85958671D2E2CE302EC9AC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3E02FE39D229314FBBEB068E7695AE1E /* GraphicButton.podspec */,
+				C432C7980EAC0520725158B2155D8DC6 /* LICENSE */,
+				8B9B52E0E9DDF7B7DB81A964C2991D90 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AB1AD80B64AA7770BDA90EB38FD1585F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBE1FEB40A70A15CBFDC31F1C516052 /* GraphicButton.framework */,
+				019692D67B13E235AFAC57ADA5501512 /* Pods_GraphicButton_Example.framework */,
+				F0227BA530A8C61951B04B2C03E9A0F5 /* Pods_GraphicButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB7EA14967499F664247539C49A194DE /* Pods-GraphicButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17B82DF061A3792CB1D2A12AB851760D /* Info.plist */,
+				B43E0C0630E7F27ACEC1FA9866557E68 /* Pods-GraphicButton_Tests.modulemap */,
+				7B9AAC9F9E6D2529D9FADAF7C69D4BC8 /* Pods-GraphicButton_Tests-acknowledgements.markdown */,
+				27A81C8815D6163786A3714CA14FAAB6 /* Pods-GraphicButton_Tests-acknowledgements.plist */,
+				27578F4CE593B6D64323C53C2AE19814 /* Pods-GraphicButton_Tests-dummy.m */,
+				D1148F5774A73251866B351EE7195A46 /* Pods-GraphicButton_Tests-frameworks.sh */,
+				618B23F1B4CDCE3795EE75AF3FC73FCF /* Pods-GraphicButton_Tests-resources.sh */,
+				723D5CED64296C7E89D64D1974D542BB /* Pods-GraphicButton_Tests-umbrella.h */,
+				0940BC660CE96EF07BE48E6FB5534179 /* Pods-GraphicButton_Tests.debug.xcconfig */,
+				FC0CC1E3E4C3FF2699E872A4D59FA4FC /* Pods-GraphicButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-GraphicButton_Tests";
+			path = "Target Support Files/Pods-GraphicButton_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F7285900636DAD21F1361DC70EDBD4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1D560BDC9E0477FEB59A5C2ABC6128 /* GraphicButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845956E6FAAE6B5D9218AA193C129FCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA1176D57C7DE62C7DD13D6CCD6B7A2 /* Pods-GraphicButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE032DC9A027EB63DA3F5C23A49972E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6F4D272DB8DADECAB352A5A58C3DF4 /* Pods-GraphicButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61319A32C0079149DA0339B6CBAA073C /* Pods-GraphicButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE12BDBAB59EBA61BF604EE9A66A2B11 /* Build configuration list for PBXNativeTarget "Pods-GraphicButton_Tests" */;
+			buildPhases = (
+				87CBC71FAA1E25F412A149619CBE2EC6 /* Sources */,
+				E0BDDEFF669C29F0D27DEEEA5DAC9A30 /* Frameworks */,
+				FDE032DC9A027EB63DA3F5C23A49972E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A846D0AFA5FB9424011A2B44FA4EBB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GraphicButton_Tests";
+			productName = "Pods-GraphicButton_Tests";
+			productReference = F0227BA530A8C61951B04B2C03E9A0F5 /* Pods_GraphicButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		744105EB195F3E2DE3C0690A32704CC4 /* Pods-GraphicButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCE8E629A01953ED701F7B3F731792D /* Build configuration list for PBXNativeTarget "Pods-GraphicButton_Example" */;
+			buildPhases = (
+				E575CC83BA953E0AF4413215479772B3 /* Sources */,
+				77B3F495E23F6AFA758C786E2FFF4415 /* Frameworks */,
+				845956E6FAAE6B5D9218AA193C129FCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25C200C71606BF637C6E6EA0AA87418 /* PBXTargetDependency */,
+			);
+			name = "Pods-GraphicButton_Example";
+			productName = "Pods-GraphicButton_Example";
+			productReference = 019692D67B13E235AFAC57ADA5501512 /* Pods_GraphicButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBDED5530E625A7C3D5895DF09502638 /* GraphicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9B1848A6DF88922153B1889F03324A /* Build configuration list for PBXNativeTarget "GraphicButton" */;
+			buildPhases = (
+				69064BF0521351978EF31F9218AE749C /* Sources */,
+				D5C61BAF160020BC8393837FC407F820 /* Frameworks */,
+				3F7285900636DAD21F1361DC70EDBD4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicButton;
+			productName = GraphicButton;
+			productReference = EEBE1FEB40A70A15CBFDC31F1C516052 /* GraphicButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AB1AD80B64AA7770BDA90EB38FD1585F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDED5530E625A7C3D5895DF09502638 /* GraphicButton */,
+				744105EB195F3E2DE3C0690A32704CC4 /* Pods-GraphicButton_Example */,
+				61319A32C0079149DA0339B6CBAA073C /* Pods-GraphicButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69064BF0521351978EF31F9218AE749C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FB224CFA99EEBCBCA293694E1737E8 /* GraphicButton-dummy.m in Sources */,
+				64467B2FEB3B11F90CD409B53E8BEEF0 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CBC71FAA1E25F412A149619CBE2EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418A089D92B66254DB9D8D5CFE38A912 /* Pods-GraphicButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E575CC83BA953E0AF4413215479772B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B2193B269057ED64CFBEF0D0ACDB62 /* Pods-GraphicButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A846D0AFA5FB9424011A2B44FA4EBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GraphicButton_Example";
+			target = 744105EB195F3E2DE3C0690A32704CC4 /* Pods-GraphicButton_Example */;
+			targetProxy = DD963AC2385A0857AF2902B73956FFC5 /* PBXContainerItemProxy */;
+		};
+		B25C200C71606BF637C6E6EA0AA87418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GraphicButton;
+			target = BBDED5530E625A7C3D5895DF09502638 /* GraphicButton */;
+			targetProxy = 09535E0CFB2875EF9213A7AAF44DAEEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29CA6EC8AB295A539EFBB17E9637D613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E86D759C261FD418150A5C3B1B9D5F /* Pods-GraphicButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphicButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphicButton_Example/Pods-GraphicButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E095F8090AAE90CFE1E2239FC1FE71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0CC1E3E4C3FF2699E872A4D59FA4FC /* Pods-GraphicButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphicButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphicButton_Tests/Pods-GraphicButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76ECBB32A9771A2FEFD9E954CB8D1C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292BB8204F52867F95DB6DA17B29AA54 /* GraphicButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GraphicButton/GraphicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GraphicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GraphicButton/GraphicButton.modulemap";
+				PRODUCT_MODULE_NAME = GraphicButton;
+				PRODUCT_NAME = GraphicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A05D0EE27603E3BE3B3517B7E3B1965B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1910C52409E083CE883585EEAB637EB4 /* Pods-GraphicButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphicButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphicButton_Example/Pods-GraphicButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAE1C76137FDDBADF809422A4CF41458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292BB8204F52867F95DB6DA17B29AA54 /* GraphicButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GraphicButton/GraphicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GraphicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GraphicButton/GraphicButton.modulemap";
+				PRODUCT_MODULE_NAME = GraphicButton;
+				PRODUCT_NAME = GraphicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E83C839D19D1D0359E43225A8C221FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0940BC660CE96EF07BE48E6FB5534179 /* Pods-GraphicButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphicButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphicButton_Tests/Pods-GraphicButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FCE8E629A01953ED701F7B3F731792D /* Build configuration list for PBXNativeTarget "Pods-GraphicButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05D0EE27603E3BE3B3517B7E3B1965B /* Debug */,
+				29CA6EC8AB295A539EFBB17E9637D613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9B1848A6DF88922153B1889F03324A /* Build configuration list for PBXNativeTarget "GraphicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76ECBB32A9771A2FEFD9E954CB8D1C12 /* Debug */,
+				DAE1C76137FDDBADF809422A4CF41458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE12BDBAB59EBA61BF604EE9A66A2B11 /* Build configuration list for PBXNativeTarget "Pods-GraphicButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83C839D19D1D0359E43225A8C221FBB /* Debug */,
+				3E095F8090AAE90CFE1E2239FC1FE71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

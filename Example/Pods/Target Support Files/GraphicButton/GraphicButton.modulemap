@@ -1,0 +1,6 @@
+framework module GraphicButton {
+  umbrella header "GraphicButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

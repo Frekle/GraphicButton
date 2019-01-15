@@ -1,0 +1,16 @@
+PODS:
+  - GraphicButton (0.1.0)
+
+DEPENDENCIES:
+  - GraphicButton (from `../`)
+
+EXTERNAL SOURCES:
+  GraphicButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GraphicButton: 3b8ebcbc84410c7d5b8edc14e524af595d58566d
+
+PODFILE CHECKSUM: c516f0e6389ede57ff30232f8d75b5878660ae83
+
+COCOAPODS: 1.5.3
