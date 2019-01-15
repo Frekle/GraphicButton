@@ -10,10 +10,10 @@
 		1894BA7221E72313000E3254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894BA7121E72313000E3254 /* AppDelegate.m */; };
 		1894BA7521E72313000E3254 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894BA7421E72313000E3254 /* ViewController.m */; };
 		1894BA7821E72313000E3254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894BA7621E72313000E3254 /* Main.storyboard */; };
-		1894BA7A21E72315000E3254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894BA7921E72315000E3254 /* Assets.xcassets */; };
 		1894BA7D21E72315000E3254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894BA7B21E72315000E3254 /* LaunchScreen.storyboard */; };
 		1894BA8021E72315000E3254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894BA7F21E72315000E3254 /* main.m */; };
 		1894BA8821E7235A000E3254 /* GraphicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894BA8721E7235A000E3254 /* GraphicButton.m */; };
+		18E2155121E7509600596EE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E2155021E7509600596EE5 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +23,13 @@
 		1894BA7321E72313000E3254 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1894BA7421E72313000E3254 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1894BA7721E72313000E3254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1894BA7921E72315000E3254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1894BA7C21E72315000E3254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1894BA7E21E72315000E3254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1894BA7F21E72315000E3254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1894BA8621E7235A000E3254 /* GraphicButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicButton.h; sourceTree = "<group>"; };
 		1894BA8721E7235A000E3254 /* GraphicButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphicButton.m; sourceTree = "<group>"; };
+		18E2155021E7509600596EE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E2155221E7523A00596EE5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E2155121E7509600596EE5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +49,7 @@
 			children = (
 				1894BA6F21E72313000E3254 /* GraphicButton */,
 				1894BA6E21E72313000E3254 /* Products */,
+				18E2154F21E7509600596EE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,13 +70,21 @@
 				1894BA7421E72313000E3254 /* ViewController.m */,
 				1894BA8621E7235A000E3254 /* GraphicButton.h */,
 				1894BA8721E7235A000E3254 /* GraphicButton.m */,
+				18E2155221E7523A00596EE5 /* PrefixHeader.pch */,
 				1894BA7621E72313000E3254 /* Main.storyboard */,
-				1894BA7921E72315000E3254 /* Assets.xcassets */,
 				1894BA7B21E72315000E3254 /* LaunchScreen.storyboard */,
 				1894BA7E21E72315000E3254 /* Info.plist */,
 				1894BA7F21E72315000E3254 /* main.m */,
 			);
 			path = GraphicButton;
+			sourceTree = "<group>";
+		};
+		18E2154F21E7509600596EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E2155021E7509600596EE5 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1894BA7D21E72315000E3254 /* LaunchScreen.storyboard in Resources */,
-				1894BA7A21E72315000E3254 /* Assets.xcassets in Resources */,
 				1894BA7821E72313000E3254 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,9 +300,10 @@
 		1894BA8421E72316000E3254 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZLQ4PL7CG4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphicButton/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/GraphicButton/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,9 +318,10 @@
 		1894BA8521E72316000E3254 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZLQ4PL7CG4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GraphicButton/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/GraphicButton/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
